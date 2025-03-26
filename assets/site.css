@@ -8,6 +8,67 @@
     --subheading-color: #79a2ff;
 }
 
+@media (max-width: 755px) {
+    .hide-on-phone {
+        display: none !important;
+    }
+}
+
+@media (max-width: 565px) {
+    footer img {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 968px) {
+    footer p, footer h5, footer .list-unstyled {
+        text-align: center;
+    }
+
+    footer .col-md-4 {
+        margin-bottom: 15px;
+    }
+
+    .btn-contact {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+
+    .navbar-collapse {
+        background-color: var(--block-bg1);
+        padding: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+        border-radius: 1rem;
+    }
+
+    .page-header {
+        background-size: 80%;
+    }
+}
+
+@media (min-width: 755px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1256px) {
+    .pet-il-index, .pet-il-grooming, .pet-il-pool, .pet-il-pool-air, .pet-il-index-text {
+        display: none !important;
+    }
+
+    .block-goo-section {
+        filter: unset;
+    }
+
+    .goo-block {
+        clip-path: unset !important;
+        height: auto !important;
+        border-radius: 1rem !important;
+    }
+}
+
 .pl-0 {
     padding-left: 0;
 }
@@ -267,55 +328,4 @@ footer a:hover {
 
 .image-fill {
     object-fit: cover;
-}
-
-@media (max-width: 755px) {
-    .hide-on-phone {
-        display: none !important;
-    }
-}
-
-@media (max-width: 565px) {
-    footer img {
-        width: 75px;
-        height: 75px;
-    }
-}
-
-@media (max-width: 968px) {
-    footer p, footer h5, footer .list-unstyled {
-        text-align: center;
-    }
-
-    footer .col-md-4 {
-        margin-bottom: 15px;
-    }
-
-    .btn-contact {
-        margin-top: 10px;
-        margin-left: 0 !important;
-    }
-
-    .navbar-collapse {
-        background-color: var(--block-bg1);
-        padding: 2rem;
-        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-        border-radius: 1rem;
-    }
-
-    .page-header {
-        background-size: 80%;
-    }
-}
-
-@media (min-width: 755px) {
-    .hide-on-pc {
-        display: none;
-    }
-}
-
-@media (max-width: 1256px) {
-    .pet-il-index, .pet-il-grooming, .pet-il-pool, .pet-il-pool-air, .pet-il-index-text {
-        display: none;
-    }
 }
