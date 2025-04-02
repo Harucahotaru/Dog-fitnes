@@ -29,14 +29,13 @@
                 <p class="mb-1">
                     <a href="tel:+7 (123) 456-78-90">+7 (123) 456-78-90</a>
                 </p>
-                <p>
-                    <a href="info@example.com">info@example.com</a>
+                <p class="pt-1">
+                    C 10.00 до 20.00
                 </p>
                 <h5 class="f-600">Социальные сети</h5>
                 <p>
-                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://vk.com/fitnesdljasobak"><i class="fab fa-vk"></i></a>
+                    <a href="https://www.instagram.com/fitnesdljasobak/?hl=ru"><i class="fab fa-instagram"></i></a>
                 </p>
             </div>
         </div>

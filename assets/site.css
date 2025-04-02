@@ -329,3 +329,11 @@ footer a:hover {
 .image-fill {
     object-fit: cover;
 }
+
+#map {
+    height: 500px;
+}
+
+#map ymaps {
+    border-radius: 1rem !important;
+}
