@@ -88,7 +88,7 @@
                 <div class="card rounded-lg h-100 text-center">
                     <div class="card-body">
                         <h3 style="color: #4aa8de;">Занятие в бассейне</h3>
-                        <p class="mt-2">30 минут — 1500 руб.</p>
+                        <p class="mt-2">1 занятие — от 1800 руб.</p>
                         <a href="/pool" class="btn btn-contact mt-2">Подробнее</a>
                     </div>
                 </div>
@@ -96,18 +96,33 @@
             <div class="col-md-4">
                 <div class="card rounded-lg h-100 text-center">
                     <div class="card-body">
-                        <h3 style="color: #4aa8de;">Груминг для собак</h3>
-                        <p class="mt-2">Полный комплекс — 2000 руб.</p>
-                        <a href="/grooming" class="btn btn-contact mt-2">Подробнее</a>
+                        <h3 style="color: #4aa8de;">Фитнес и хэндлинг</h3>
+                        <p class="mt-2">Абонемент — от 3500 руб.</p>
+                        <a href="/contacts" class="btn btn-contact mt-2">Подробнее</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card rounded-lg h-100 text-center">
                     <div class="card-body">
-                        <h3 style="color: #4aa8de;">Груминг для кошек</h3>
-                        <p class="mt-2">Полный комплекс — 1800 руб.</p>
+                        <h3 style="color: #4aa8de;">Груминг</h3>
+                        <p class="mt-2">Комплекс — от 1500 руб.</p>
                         <a href="/grooming" class="btn btn-contact mt-2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card-custom1 rounded-lg p-3 mt-5">
+        <h2 class="text-center">
+            С актуальным прайс-листом можно ознакомится тут
+        </h2>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="card rounded-lg h-100 text-center">
+                    <div class="card-body">
+                        <a href="/price/price_2025_03.xlsx" class="btn btn-contact mt-2">Прайс лист Март 2025</a>
                     </div>
                 </div>
             </div>
