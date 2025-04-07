@@ -12,6 +12,14 @@
     .hide-on-phone {
         display: none !important;
     }
+
+    .p-normal-on-phone {
+        padding: 1rem !important;
+    }
+
+    .m-b-on-phone {
+        margin-bottom: 1rem !important;
+    }
 }
 
 @media (max-width: 565px) {

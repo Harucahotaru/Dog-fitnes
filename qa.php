@@ -19,7 +19,7 @@
     <!-- Секция с вопросами и ответами -->
     <section class="row">
         <!-- Левая часть: Вопросы -->
-        <div class="col-md-8">
+        <div class="col-md-8 m-b-on-phone">
             <div class="accordion card-custom1 rounded-lg h-100" id="faqAccordion">
                 <!-- Вопрос 1 -->
                 <div class="accordion-item rounded-lg">

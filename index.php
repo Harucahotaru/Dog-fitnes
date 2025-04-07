@@ -22,8 +22,8 @@
     <section class="position-relative">
         <div class="pet-il-index-text"></div>
         <div class="block-goo-section">
-            <div class="goo-block card-custom1 rounded-lg p-3 mb-5 d-flex flex-column justify-content-center"
-                 style="padding-right: 150px !important;padding-left: 30px !important;height: 300px;">
+            <div class="goo-block card-custom1 rounded-lg py-3 mb-5 d-flex flex-column justify-content-center p-normal-on-phone"
+                 style="padding-right: 150px;padding-left: 30px;height: 300px;">
                 <h2 class="text-center">Центр фитнеса и реабилитации животных</h2>
                 <p class="mt-3">
                     Мы предлагаем полный спектр услуг для ваших питомцев: от плавания в бассейне для укрепления здоровья до
@@ -63,7 +63,7 @@
 
     <!-- Блоки текста с описанием процедур -->
     <section class="row mb-5 position-relative justify-content-between">
-        <div class="col-md-5">
+        <div class="col-md-5 m-b-on-phone">
             <div class="card card-custom1 rounded-lg h-100 p-3">
                 <h2>Плавание в бассейне</h2>
                 <p class="mt-2">Плавание помогает укрепить мышцы, снизить вес и снять стресс у вашего питомца. Это безопасный способ восстановления после травм и поддержания здоровья.</p>

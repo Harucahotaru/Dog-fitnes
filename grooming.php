@@ -40,7 +40,7 @@
             <h2 class="text-center">Мы готовы принять Всех!</h2>
         </div>
         <div class="row mt-3 position-relative justify-content-between">
-            <div class="col-md-5">
+            <div class="col-md-5 m-b-on-phone">
                 <div class="card rounded-lg h-100">
                     <div class="card-body">
                         <h3 class="card-title" style="color: #4aa8de;">Груминг для собак</h3>
