@@ -59,7 +59,6 @@
 
 <!-- Яндекс.Карты API -->
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-<script src="search_control_ppo.js" type="text/javascript"></script>
 <script>
     ymaps.ready(init);
 
