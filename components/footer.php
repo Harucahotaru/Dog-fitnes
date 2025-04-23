@@ -20,6 +20,7 @@
                     <li><a href="/">Главная</a></li>
                     <li><a href="/pool">Бассейн</a></li>
                     <li><a href="/grooming">Груминг</a></li>
+                    <li><a href="/fitness">Фитнес</a></li>
                     <li><a href="/qa">Вопросы и ответы</a></li>
                     <li><a href="/contacts">Контакты</a></li>
                 </ul>

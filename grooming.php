@@ -1,3 +1,29 @@
+<?php
+
+$sliderPages2 = [
+    [
+        'image' => '/images/grooming_4.jpg',
+        'alt' => 'Груминг',
+        'styleImg' => 'object-position: top;',
+        'active' => true,
+    ],
+    [
+        'image' => '/images/grooming_13.jpg',
+        'alt' => 'Груминг',
+    ],
+    [
+        'image' => '/images/grooming_3.jpg',
+        'alt' => 'Груминг',
+    ],
+    [
+        'image' => '/images/grooming_12.jpg',
+        'alt' => 'Груминг',
+        'styleImg' => 'object-position: top;'
+    ],
+];
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -17,18 +43,18 @@
     </div>
 
     <!-- Раздел 1: Коротко про преимущества -->
-    <section class="row mx-0 mb-5 justify-content-between">
-        <div class="card-custom1 rounded-lg col-md-5 p-3 d-flex justify-content-between flex-column ">
+    <section class="row mx-0 justify-content-between">
+        <div class="card-custom1 rounded-lg col-md-5 p-3 d-flex justify-content-between flex-column mb-5">
             <h2>Груминг — это забота о здоровье и красоте</h2>
             <p class="mt-3 mb-auto">Сегодня груминг представляет собой стрижку шерсти (как гигиеническую, так и
                 модельную), стрижку когтей, чистку ушей, глаз и зубов, бритье шерсти на лапах и еще ряд процедур. Все
                 это необходимо не только для поддержания эстетичного вида питомца, но и для его здоровья.</p>
             <a class="btn btn-contact mt-3" href="/contacts">Связаться с нами</a>
         </div>
-        <div class="col-md-3 p-0 hide-on-phone">
+        <div class="col-md-3 p-0 mb-5">
             <img src="/images/grooming_5.jpg" alt="Груминг питомца" class="img-fluid w-100 h-100 rounded-lg image-fill">
         </div>
-        <div class="col-md-3 p-0 hide-on-phone">
+        <div class="col-md-3 p-0 mb-5">
             <img src="/images/grooming_10.jpg" alt="Груминг питомца"
                  class="img-fluid rounded-end-lg w-100 h-100 rounded-lg image-fill">
         </div>
@@ -61,6 +87,43 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Карусель -->
+    <section class="row">
+        <div class="col-lg-4 mb-5">
+            <img src="/images/grooming_11.jpg" class="d-block w-100 rounded-lg" style="max-height: 550px;" alt="Груминг">
+        </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+            <div class="card-custom2 rounded-lg">
+                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                             data-bs-interval="3000">
+                            <video class="d-block w-100 rounded-lg" controls autoplay loop muted
+                                   style="max-height: 550px; object-fit: cover;">
+                                <source src="/video/grooming_1.MOV" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+            <img src="/images/grooming_7.jpg" class="d-block w-100 rounded-lg" style="max-height: 550px;" alt="Груминг">
         </div>
     </section>
 </main>

@@ -1,3 +1,28 @@
+<?php
+
+$sliderPages1 = [
+    [
+        'image' => '/images/pool_7.jpg',
+        'alt' => 'Собака в бассейне',
+        'class' => 'active',
+        'active' => true,
+    ],
+    [
+        'image' => '/images/pool_1.jpg',
+        'alt' => 'Собака в бассейне',
+    ],
+    [
+        'image' => '/images/pool_2.jpg',
+        'alt' => 'Собака в бассейне',
+    ],
+    [
+        'image' => '/images/pool_5.jpg',
+        'alt' => 'Собака в бассейне',
+    ],
+];
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -19,8 +44,8 @@
     </div>
 
     <!-- Раздел 1: Коротко про преимущества -->
-    <section class="row m-0 mb-5 justify-content-between">
-        <div class="col-md-5 p-3 d-flex justify-content-between flex-column card-custom1 rounded-lg">
+    <section class="row m-0 justify-content-between">
+        <div class="col-md-5 p-3 d-flex justify-content-between flex-column card-custom1 rounded-lg mb-5">
             <h2>Избыточный вес негативно сказывается на здоровье питомца!</h2>
             <p class="mt-3">Это риск развития ряда заболеваний.</p>
             <p>Очевидно, что в воде ощущение веса теряется, а нагрузка увеличивается. При плавании начинают работать те
@@ -29,10 +54,10 @@
             <p>Ваш питомец тренируется как бы в невесомости.</p>
             <a class="btn btn-contact mt-3" href="/contacts">Связаться с нами</a>
         </div>
-        <div class="col-md-3 p-0 hide-on-phone">
+        <div class="col-md-3 p-0 mb-5">
             <img src="/images/pool_1.jpg" alt="Собака в бассейне" class="img-fluid w-100 h-100 rounded-lg image-fill">
         </div>
-        <div class="col-md-3 p-0 hide-on-phone">
+        <div class="col-md-3 p-0 mb-5">
             <img src="/images/pool_4.jpg" alt="Собака в бассейне" class="img-fluid w-100 h-100 rounded-lg image-fill">
         </div>
     </section>
@@ -114,7 +139,34 @@
             <a class="btn btn-contact mt-3" href="/contacts">Связаться с нами</a>
         </div>
         <div class="col-md-6 p-0">
-            <img src="/images/pool_2.jpg" alt="Специалист с собакой" class="img-fluid rounded-end-lg w-100 h-100">
+            <div class="card-custom2 rounded-lg">
+                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <?php foreach ($sliderPages1 as $slideNum => $slide): ?>
+                            <button type="button" data-bs-target="#carouselIndicators2"
+                                    data-bs-slide-to="<?= $slideNum ?>"
+                                <?= isset($slide['active']) && $slide['active'] ? 'class="active" aria-current="true"' : '' ?>></button>
+                        <?php endforeach; ?>
+                    </div>
+                    <div class="carousel-inner">
+                        <?php foreach ($sliderPages1 as $slideNum => $slide): ?>
+                            <div class="carousel-item <?= isset($slide['active']) && $slide['active'] ? 'active' : '' ?>"
+                                 data-bs-interval="10000">
+                                <img src="<?= $slide['image'] ?>" class="d-block w-100 rounded-lg" alt="<?= $slide['alt'] ?>"
+                                     style="max-height: 430px; <?= $slide['styleImg'] ?? '' ?>">
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 

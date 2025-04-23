@@ -3,7 +3,7 @@
     <div class="container navbar-container">
         <a class="navbar-brand text-dark d-flex align-items-center" href="/">
             <img src="/images/logo.png" alt="Логотип" width="30" height="24" class="d-inline-block align-top border-logo">
-            <span class="hide-on-phone ms-2">Центр фитнеса и реабилитации животных</span>
+            <span class="hide-on-phone ms-2" style="font-size: 19px;">Центр фитнеса и реабилитации животных</span>
             <span class="hide-on-pc ms-2">Центр фитнеса</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,6 +19,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="/grooming">Груминг</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/fitness">Фитнес</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="/qa">Вопросы и ответы</a>
