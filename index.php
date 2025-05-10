@@ -153,7 +153,7 @@ $sliderPages1 = [
 
     <section class="card-custom1 rounded-lg p-3 mt-5">
         <h2 class="text-center">
-            С актуальным прайс-листом можно ознакомится тут
+            С актуальным прайс-листом можно ознакомиться тут
         </h2>
         <div class="row mt-3">
             <div class="col-md-12">
