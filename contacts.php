@@ -24,7 +24,7 @@
             <div class="mt-3">
                 <p>
                     <i class="fas fa-phone-alt"></i>
-                    Телефон: <a class="text-secondary" href="tel:+7 (925) 524-46-30">+7 (925) 524-46-30</a>
+                    Телефон: <a class="text-secondary" href="tel:+7 (925) 524-46-30">+7 (925) 524-46-30</a> или <a class="text-secondary" href="tel:8 (925) 359-54-66">8 (925) 359-54-66</a>
                 </p>
 <!--                <p><i class="fas fa-envelope"></i>-->
 <!--                    Email: <a class="text-secondary" href="info@example.com">info@example.com</a>-->
