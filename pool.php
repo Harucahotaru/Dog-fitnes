@@ -136,7 +136,7 @@ $sliderPages1 = [
         <div class="col-md-6 p-3 d-flex justify-content-between flex-column">
             <h2>Нужна помощь специалиста</h2>
             <p class="mt-3 mb-auto">Для записи на занятия в бассейне обратитесь к нам через социальные сети или по номеру
-                телефона: <a class="text-secondary" href="tel:+7 (123) 456-78-90">+7 (123) 456-78-90</a>.</p>
+                телефона: <a class="text-secondary" href="tel:+7 (925) 524-56-30">+7 (925) 524-56-30</a>.</p>
             <a class="btn btn-contact mt-3" href="/contacts">Связаться с нами</a>
         </div>
         <div class="col-md-6 p-0">
